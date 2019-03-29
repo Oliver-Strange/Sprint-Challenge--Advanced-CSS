@@ -178,13 +178,23 @@ p {
   margin: 25px;
 }
 .navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
   margin-bottom: 25px;
+  width: 80%;
 }
 .navbar nav a {
   margin: 0 20px;
   text-decoration: none;
   color: #23293B;
+}
+.navbar nav a:hover {
+  background-color: #23293B;
+  color: #F1F1F1;
+  padding: 1%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .navbar nav a {

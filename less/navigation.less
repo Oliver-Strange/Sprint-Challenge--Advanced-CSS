@@ -13,12 +13,21 @@
         margin: 25px;
     }
     nav {
+        .center;
         font-size: 2rem;
         margin-bottom: 25px;
+        width: 80%;
         a {
             margin: 0 20px;
             text-decoration: none;
             color: @ebony-clay;
+
+            &:hover {
+                background-color: @ebony-clay;
+                color: @sea-shell;
+                padding: 1%;
+                border-radius: 10px;
+            }
 
             @media @phone {
                 margin: 0 10px;
