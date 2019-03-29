@@ -1,1 +1,19 @@
 // Mixins Here
+
+.center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-maker(@width, @height, @bg-color, @font-color, @font-size) {
+    .center;
+    border-radius: 15px;
+    width: @width;
+    height: @height;
+    background-color: @bg-color;
+    color: @font-color;
+    font-size: @font-size;
+    
+}
