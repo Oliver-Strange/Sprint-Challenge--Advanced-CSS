@@ -175,15 +175,25 @@ p {
 }
 .navbar h1 {
   font-size: 5rem;
-  margin: 25px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  .navbar h1 {
+    font-size: 4rem;
+  }
 }
 .navbar nav {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  margin-bottom: 25px;
+  margin: 20px auto;
   width: 80%;
+}
+@media (max-width: 500px) {
+  .navbar nav {
+    font-size: 1.6rem;
+  }
 }
 .navbar nav a {
   margin: 0 20px;
