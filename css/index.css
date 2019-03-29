@@ -191,6 +191,15 @@ p {
     margin: 0 10px;
   }
 }
+@media (max-width: 500px) {
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.85;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -200,6 +209,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .home {
+    margin-top: 150px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
